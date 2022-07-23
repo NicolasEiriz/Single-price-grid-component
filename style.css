@@ -198,7 +198,7 @@ main{
 
 .top{
   height: 45%;
-  padding: 6%;
+  padding: 5.5%;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -207,20 +207,20 @@ main{
 .top h2{
   color: hsl(179, 62%, 43%);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .top h3{
   color: hsl(71, 73%, 54%);
   font-weight: 700;
   line-height: 8.5vh;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .top p{
   color:  hsl(218, 22%, 67%);
-  font-size: 0.65rem;
-  line-height: 0.2vh;
+  font-size: 1rem;
+  line-height: 0.3vh;
 }
 .top p + p{
   line-height: 6vh;
@@ -234,7 +234,7 @@ main{
 .bottom > section{
   height: 100%;
   width: 50%;
-  padding: 6.2%;
+  padding: 5.8%;
   float: left;
   display: flex;
   flex-direction: column;
@@ -248,19 +248,19 @@ main{
 }
 
 .bottom_left h2{
-  font-size: 0.7rem;
+  font-size: 1.1rem;
   font-weight: 400;
    
 }
 .bottom_left .price{
   color: rgba(255,255,255,0.5);
   line-height: 8.5vh;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 .bottom_left span{
   color: white;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 700;
   position: relative;
   top: 0.5vh;
@@ -268,22 +268,22 @@ main{
 }
 
 .bottom_left p{
-  font-size: 0.61rem;
+  font-size: 1rem;
   color: rgba(255,255,255,0.8);
-  margin-bottom: -6px;
+  
 }
 .bottom_left a{
 
 color: white;
 text-decoration: none;
 background: hsl(71, 73%, 54%);
-padding: 6%;
+padding: 5%;
 border-radius: 5px;
 text-align: center;
 position: relative;
-top: 25px;
 box-shadow: 0 10px rgba(0, 0, 0, 0.05);
-  font-size: 0.6rem;
+font-size: rem;
+bottom: 10px;
 }
 
 .bottom_right{
@@ -291,7 +291,7 @@ box-shadow: 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .bottom_right h2{
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -302,9 +302,9 @@ box-shadow: 0 10px rgba(0, 0, 0, 0.05);
 .bottom_right ul li{
   list-style: none;
   color: rgba(255,255,255,0.6);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   position: relative;
-  bottom: 1px;
+  top: 6px;
 }
 .attribution { font-size: 11px; 
   text-align: center;
